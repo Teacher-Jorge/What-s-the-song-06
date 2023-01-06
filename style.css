@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Lato:wght@300&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'bangers';
+    font-size: 50px;
+    color: rgb(204, 0, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.words {
+    display: flex;
+    margin: 25px 5px 5px 5px;
+    justify-content: center;
+    font-family: 'Bangers';
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    color: rgb(255, 94, 0);
+}
+
+.space {
+    font-family: 'bangers';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(204, 0, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.btn {
+    font-family: 'bangers';
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 255, 0);
+    border-style: none;
+    width: 90px;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+.translate {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#translate {
+    width: 310px;
+    font-family: 'bangers';
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 217, 255);
+    border-style: none;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+#translate:active {
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+}
